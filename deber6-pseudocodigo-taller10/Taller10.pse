@@ -1,0 +1,36 @@
+Algoritmo Proceso_Evaluacion_Formativa_IA
+	// DEFINICIÓN DE VARIABLES
+	Definir respuestaRetro Como Cadena
+	Definir continuarIteracion Como Cadena
+	Repetir
+		Escribir '=========================================================='
+		Escribir ' PROCESO DE EVALUACIÓN FORMATIVA DE COMPETENCIAS DIGITALES'
+		// FASE 2: DISEÑO Y ADAPTACIÓN DE ACTIVIDADES
+		Escribir '=========================================================='
+		// FASE 1: DEFINICIÓN DE OBJETIVOS Y COMPETENCIAS
+		Escribir '1. Identificando Competencias Digitales (DigComp) y Objetivos de Aprendizaje...'
+		Escribir '2. Definiendo Criterios de Evaluación y Rúbricas (con apoyo de IA)...'
+		Escribir '3. Creando Actividades de Aprendizaje y Evaluación Digitales...'
+		Escribir '4. Integrando Herramientas de IA para Recopilación de Datos...'
+		// FASE 3: IMPLEMENTACIÓN Y EVALUACIÓN
+		Escribir '5. Estudiantes completan actividades en el entorno digital...'
+		Escribir '6. Herramientas de IA capturan y analizan el desempeño en tiempo real...'
+		// FASE 4: DECISIÓN Y RETROALIMENTACIÓN ASISTIDA POR IA
+		Escribir '¿El estudiante necesita retroalimentación inmediata? (si/no):'
+		Leer respuestaRetro
+		Si Mayusculas(respuestaRetro)='SI' Entonces
+			Escribir '[7.a] Generando retroalimentación automatizada y recursos por IA...'
+			Escribir 'Reorientando al estudiante hacia las actividades de aprendizaje...'
+		SiNo
+			// ANÁLISIS DE DATOS Y SEGUIMIENTO
+			Escribir '[8] Herramientas de IA generan visualizaciones y diagnósticos de progreso individual y grupal.'
+		FinSi
+		// FASE 5: MONITORIZACIÓN Y AJUSTES DEL DOCENTE
+		Escribir '9. El docente revisa informes de la IA y ajusta la enseñanza y el apoyo...'
+		// FASE 6: MEJORA CONTINUA (ITERACIÓN)
+		Escribir '10. Iteración del proceso de evaluación para fortalecer competencias.'
+		Escribir '¿Desea iniciar un nuevo ciclo de mejora continua? (si/no):'
+		Leer continuarIteracion
+	Hasta Que Mayusculas(continuarIteracion)='NO'
+	Escribir 'Proceso de evaluación asistida por IA finalizado exitosamente.'
+FinAlgoritmo

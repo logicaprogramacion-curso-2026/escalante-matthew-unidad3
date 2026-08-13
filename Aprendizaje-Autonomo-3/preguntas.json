@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "tipo": "opcion_multiple",
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": ["a) Madrid", "b) París", "c) Roma", "d) Berlín"],
+    "respuesta_correcta": "b",
+    "puntaje": 2.0,
+    "retroalimentacion_error": "Recuerda que París es la capital de Francia; Madrid pertenece a España."
+  },
+  {
+    "id": 2,
+    "tipo": "opcion_multiple_varias",
+    "pregunta": "Selecciona los lenguajes de programación de alto nivel (separa con comas, ej: a,c):",
+    "opciones": ["a) Python", "b) Ensamblador", "c) Java", "d) Código Máquina"],
+    "respuesta_correcta": ["a", "c"],
+    "puntaje": 3.0,
+    "retroalimentacion_error": "Python y Java son de alto nivel. Ensamblador y Código Máquina son de bajo nivel."
+  },
+  {
+    "id": 3,
+    "tipo": "verdadero_falso",
+    "pregunta": "El agua hierve a 100°C a nivel del mar. (V/F):",
+    "respuesta_correcta": "v",
+    "puntaje": 1.0,
+    "retroalimentacion_error": "A presión atmosférica normal, el punto de ebullición del agua es 100°C."
+  },
+  {
+    "id": 4,
+    "tipo": "completar_espacio",
+    "pregunta": "El proceso por el cual las plantas transforman la luz solar en energía se llama ________.",
+    "respuesta_correcta": "fotosintesis",
+    "puntaje": 2.0,
+    "retroalimentacion_error": "La respuesta correcta es 'fotosíntesis'."
+  },
+  {
+    "id": 5,
+    "tipo": "emparejamiento",
+    "pregunta": "Empareja los países con sus capitales indicando la letra correspondiente para 1, 2 y 3 (ej: a,b,c):\n1. España\n2. Italia\n3. Alemania\nOpciones: a) Roma | b) Berlín | c) Madrid",
+    "respuesta_correcta": ["c", "a", "b"],
+    "puntaje": 2.0,
+    "retroalimentacion_error": "El orden correcto era: 1-Madrid (c), 2-Roma (a), 3-Berlín (b)."
+  }
+]

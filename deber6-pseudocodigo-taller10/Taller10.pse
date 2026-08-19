@@ -1,36 +1,49 @@
 Algoritmo Proceso_Evaluacion_Formativa_IA
-	// DEFINICI覰 DE VARIABLES
-	Definir respuestaRetro Como Cadena
-	Definir continuarIteracion Como Cadena
-	Repetir
-		Escribir '=========================================================='
-		Escribir ' PROCESO DE EVALUACI覰 FORMATIVA DE COMPETENCIAS DIGITALES'
-		// FASE 2: DISE袿 Y ADAPTACI覰 DE ACTIVIDADES
-		Escribir '=========================================================='
-		// FASE 1: DEFINICI覰 DE OBJETIVOS Y COMPETENCIAS
-		Escribir '1. Identificando Competencias Digitales (DigComp) y Objetivos de Aprendizaje...'
-		Escribir '2. Definiendo Criterios de Evaluaci髇 y R鷅ricas (con apoyo de IA)...'
-		Escribir '3. Creando Actividades de Aprendizaje y Evaluaci髇 Digitales...'
-		Escribir '4. Integrando Herramientas de IA para Recopilaci髇 de Datos...'
-		// FASE 3: IMPLEMENTACI覰 Y EVALUACI覰
-		Escribir '5. Estudiantes completan actividades en el entorno digital...'
-		Escribir '6. Herramientas de IA capturan y analizan el desempe駉 en tiempo real...'
-		// FASE 4: DECISI覰 Y RETROALIMENTACI覰 ASISTIDA POR IA
-		Escribir '縀l estudiante necesita retroalimentaci髇 inmediata? (si/no):'
-		Leer respuestaRetro
-		Si Mayusculas(respuestaRetro)='SI' Entonces
-			Escribir '[7.a] Generando retroalimentaci髇 automatizada y recursos por IA...'
-			Escribir 'Reorientando al estudiante hacia las actividades de aprendizaje...'
-		SiNo
-			// AN罫ISIS DE DATOS Y SEGUIMIENTO
-			Escribir '[8] Herramientas de IA generan visualizaciones y diagn髎ticos de progreso individual y grupal.'
-		FinSi
-		// FASE 5: MONITORIZACI覰 Y AJUSTES DEL DOCENTE
-		Escribir '9. El docente revisa informes de la IA y ajusta la ense馻nza y el apoyo...'
-		// FASE 6: MEJORA CONTINUA (ITERACI覰)
-		Escribir '10. Iteraci髇 del proceso de evaluaci髇 para fortalecer competencias.'
-		Escribir '緿esea iniciar un nuevo ciclo de mejora continua? (si/no):'
-		Leer continuarIteracion
-	Hasta Que Mayusculas(continuarIteracion)='NO'
-	Escribir 'Proceso de evaluaci髇 asistida por IA finalizado exitosamente.'
+
+    // DEFINICI脫N DE VARIABLES
+    Definir respuestaRetro Como Cadena
+    Definir continuarIteracion Como Cadena
+
+    Repetir
+        Escribir "=========================================================="
+        Escribir " PROCESO DE EVALUACI脫N FORMATIVA DE COMPETENCIAS DIGITALES"
+        Escribir "=========================================================="
+
+        // FASE 1: DEFINICI脫N DE OBJETIVOS Y COMPETENCIAS
+        Escribir "1. Identificando Competencias Digitales (DigComp) y Objetivos de Aprendizaje..."
+        Escribir "2. Definiendo Criterios de Evaluaci贸n y R煤bricas (con apoyo de IA)..."
+
+        // FASE 2: DISE脩O Y ADAPTACI脫N DE ACTIVIDADES
+        Escribir "3. Creando Actividades de Aprendizaje y Evaluaci贸n Digitales..."
+        Escribir "4. Integrando Herramientas de IA para Recopilaci贸n de Datos..."
+
+        // FASE 3: IMPLEMENTACI脫N Y EVALUACI脫N
+        Escribir "5. Estudiantes completan actividades en el entorno digital..."
+        Escribir "6. Herramientas de IA capturan y analizan el desempe帽o en tiempo real..."
+
+        // FASE 4: DECISI脫N Y RETROALIMENTACI脫N ASISTIDA POR IA
+        Escribir "驴El estudiante necesita retroalimentaci贸n inmediata? (si/no):"
+        Leer respuestaRetro
+
+        Si Mayusculas(respuestaRetro) = "SI" Entonces
+            Escribir "[7.a] Generando retroalimentaci贸n automatizada y recursos por IA..."
+            Escribir "Reorientando al estudiante hacia las actividades de aprendizaje..."
+        Sino
+            // AN脕LISIS DE DATOS Y SEGUIMIENTO
+            Escribir "[8] Herramientas de IA generan visualizaciones y diagn贸sticos de progreso individual y grupal."
+        FinSi
+
+        // FASE 5: MONITORIZACI脫N Y AJUSTES DEL DOCENTE
+        Escribir "9. El docente revisa informes de la IA y ajusta la ense帽anza y el apoyo..."
+
+        // FASE 6: MEJORA CONTINUA (ITERACI脫N)
+        Escribir "10. Iteraci贸n del proceso de evaluaci贸n para fortalecer competencias."
+        
+        Escribir "驴Desea iniciar un nuevo ciclo de mejora continua? (si/no):"
+        Leer continuarIteracion
+
+    Hasta Que Mayusculas(continuarIteracion) = "NO"
+
+    Escribir "Proceso de evaluaci贸n asistida por IA finalizado exitosamente."
+
 FinAlgoritmo
